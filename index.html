@@ -1,46 +1,89 @@
 <!DOCTYPE html>
 <html lang="uz-UZ">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
-    <!-- MDB -->
-    <link rel="stylesheet" href="/node_modules/mdb-ui-kit/src/css/mdb.free.css" />
-  </head>
-  <body>
-    <!-- Start your project here-->
-    <div class="container">
-      <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="text-center">
-          <img
-            class="mb-4"
-            src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
-            style="width: 250px; height: 90px;"
-          />
-          <h5 class="mb-3">Thank you for using our product. We're glad you're with us.</h5>
-          <p class="mb-3">MDB Team</p>
-          <a
-            class="btn btn-primary btn-lg"
-            href="https://mdbootstrap.com/docs/standard/getting-started/"
-            target="_blank"
-            role="button"
-            >Start MDB tutorial</a
-          >
-        </div>
-      </div>
-    </div>
-    <!-- End your project here-->
-
-    <!-- MDB -->
-    <script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>Material Design for Bootstrap</title>
+		<!-- MDB icon -->
+		<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+		<!-- Google Fonts Roboto -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+		<!-- MDB -->
+		<link rel="stylesheet" href="/node_modules/mdb-ui-kit/src/css/mdb.free.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<!-- Container wrapper -->
+				<div class="container">
+					<a class="navbar-brand" href="#">katkhm-mdbootstrap</a>
+					<!-- Toggle button -->
+					<button
+					class="navbar-toggler"
+					type="button"
+					data-mdb-toggle="collapse"
+					data-mdb-target="#navbarRightAlignExample"
+					aria-controls="navbarRightAlignExample"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					>
+					<i class="fas fa-bars"></i>
+					</button>
+					<!-- Collapsible wrapper -->
+					<div class="collapse navbar-collapse" id="navbarRightAlignExample">
+						<!-- Left links -->
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+							<!-- Navbar dropdown -->
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-mdb-toggle="dropdown"
+									aria-expanded="false"
+									>
+									Dropdown
+								</a>
+								<!-- Dropdown menu -->
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li>
+										<a class="dropdown-item" href="#">Action</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Another action</a>
+									</li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+								>Disabled</a
+								>
+							</li>
+						</ul>
+						<!-- Left links -->
+					</div>
+					<!-- Collapsible wrapper -->
+				</div>
+				<!-- Container wrapper -->
+			</nav>
+		</header>
+		<!-- MDB -->
+		<script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+		<!-- Custom scripts -->
+		<script></script>
+	</body>
 </html>
