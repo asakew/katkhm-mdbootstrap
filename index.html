@@ -16,7 +16,8 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<!-- Navbar -->
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
 				<!-- Container wrapper -->
 				<div class="container">
 					<a class="navbar-brand" href="#">katkhm-mdbootstrap</a>
@@ -39,7 +40,6 @@
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
 							</li>
-
 							<!-- Navbar dropdown: Rahbariyat-->
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="ddRahbariyat" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
@@ -68,7 +68,6 @@
 										<a class="dropdown-item" href="#">Bosh hisobchi</a>
 									</li>
 								</ul>
-
 								<!-- Navbar dropdown: Ma’lumotlar-->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="ddInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
@@ -90,7 +89,6 @@
 										</li>
 									</ul>
 								</li>
-
 								<!-- Navbar dropdown: Talabalar-->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="ddTalabalar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
@@ -106,7 +104,6 @@
 										</li>
 									</ul>
 								</li>
-
 								<!-- Navbar dropdown: Faoliyatlar-->
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="ddFaoliyatlar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
@@ -125,7 +122,6 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#">Link</a>
 								</li>
-
 								<li class="nav-item">
 									<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
 								</li>
@@ -136,13 +132,30 @@
 					</div>
 					<!-- Container wrapper -->
 				</nav>
-				<div class="container-fluid">
-					
+					<!-- Background image -->
+			<div
+				class="p-5 text-center bg-image"
+				style="
+				background-image: url('assets/img/1.jpg');
+				height: 100vh;"
+				>
+				<div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+					<div class="d-flex justify-content-center align-items-center h-100">
+						<div class="text-white">
+							<h1 class="mb-3">Kattaqo‘rg‘on shahar kasb-hunarga o‘qitish markazi
+							</h1>
+							<p class="mb-3">Markazda mehnat bozorining real talab va taklif kelib chiqqan holda, 20 ta yo‘nalish bo‘yicha stipendiyalik qisqa muddatli kurslar tashkil etilgan.
+							</p>
+							<a class="btn btn-outline-light btn-lg" href="#!" role="button">Aloqa</a>
+						</div>
+					</div>
 				</div>
-			</header>
-			<!-- MDB -->
-			<script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
-			<!-- Custom scripts -->
-			<script></script>
-		</body>
-	</html>
+			</div>
+			<!-- Background image -->
+		</header>
+		<!-- MDB -->
+		<script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+		<!-- Custom scripts -->
+		<script></script>
+	</body>
+</html>
