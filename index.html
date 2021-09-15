@@ -1,318 +1,180 @@
 <!DOCTYPE html>
 <html lang="uz-UZ">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<title>Material Design for Bootstrap</title>
-		<!-- MDB icon -->
-		<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
-		<!-- Google Fonts Roboto -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
-		<!--other css -->
-		<link rel="stylesheet" href="/assets/css/style.css">
-		<!-- MDB -->
-		<link rel="stylesheet" href="/node_modules/mdb-ui-kit/src/css/mdb.free.css" />
-		<!-- AOS -->
-		<link rel="stylesheet" href="/node_modules/aos/src/css/aos.css" />
-	</head>
-	<body>
-		<header>
-			<!-- Navbar -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<!-- Container wrapper -->
-				<div class="container">
-					<a class="navbar-brand" href="#">katkhm-mdbootstrap</a>
-					<!-- Toggle button -->
-					<button
-					class="navbar-toggler"
-					type="button"
-					data-mdb-toggle="collapse"
-					data-mdb-target="#navbar"
-					aria-controls="navbar"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-					>
-					<i class="fas fa-bars"></i>
-					</button>
-					<!-- Collapsible wrapper -->
-					<div class="collapse navbar-collapse" id="navbar">
-						<!-- Right links -->
-						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
-							</li>
-							<!-- Navbar dropdown: Rahbariyat-->
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="ddRahbariyat" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Material Design for Bootstrap</title>
+	<!-- MDB icon -->
+	<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+	<!-- Google Fonts Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+	<!--other css -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<!-- MDB -->
+	<link rel="stylesheet" href="/node_modules/mdb-ui-kit/src/css/mdb.free.css">
+	<!-- AOS -->
+	<link rel="stylesheet" href="/node_modules/aos/src/css/aos.css">
+</head>
+
+<body>
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<!-- Container wrapper -->
+			<div class="container">	<a class="navbar-brand" href="#">katkhm-mdbootstrap</a>
+				<!-- Toggle button -->
+				<button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">	<i class="fas fa-bars"></i>
+				</button>
+				<!-- Collapsible wrapper -->
+				<div class="collapse navbar-collapse" id="navbar">
+					<!-- Right links -->
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">	<a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
+						</li>
+						<!-- Navbar dropdown: Rahbariyat-->
+						<li class="nav-item dropdown">	<a class="nav-link dropdown-toggle" href="#" id="ddRahbariyat" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
 									Rahbariyat
 								</a>
-								<!-- Dropdown menu -->
-								<ul class="dropdown-menu shadow-lg" aria-labelledby="ddRahbariyat">
-									<li>
-										<a class="dropdown-item" href="#">Kollej Direktori</a>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#">O’IBDO</a>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#">MMBIDO’</a>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#">ICHIBDO’</a>
-									</li>
-									
-									<li>
-										<a class="dropdown-item" href="#">XIBDO’</a>
-									</li>
-									
-									<li>
-										<a class="dropdown-item" href="#">Bosh hisobchi</a>
-									</li>
-								</ul>
-								<!-- Navbar dropdown: Ma’lumotlar-->
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="ddInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-										Ma’lumotlar
-									</a>
-									<!-- Dropdown menu -->
-									<ul class="dropdown-menu shadow-lg" aria-labelledby="ddInfo">
-										<li>
-											<a class="dropdown-item" href="#">Qonunlar</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">Farmonlar</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">Qarorlar</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">Nizomlar va qoidalar</a>
-										</li>
-									</ul>
+							<!-- Dropdown menu -->
+							<ul class="dropdown-menu shadow-lg" aria-labelledby="ddRahbariyat">
+								<li>	<a class="dropdown-item" href="#">Kollej Direktori</a>
 								</li>
-								<!-- Navbar dropdown: Talabalar-->
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="ddTalabalar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-										Talabalar
-									</a>
-									<!-- Dropdown menu -->
-									<ul class="dropdown-menu shadow-lg" aria-labelledby="ddTalabalar">
-										<li>
-											<a class="dropdown-item" href="#">Yo'riqnoma</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">Iqtidorli talabalar</a>
-										</li>
-									</ul>
+								<li>	<a class="dropdown-item" href="#">O’IBDO</a>
 								</li>
-								<!-- Navbar dropdown: Faoliyatlar-->
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="ddFaoliyatlar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-										Faoliyatlar
-									</a>
-									<!-- Dropdown menu -->
-									<ul class="dropdown-menu shadow-lg" aria-labelledby="ddFaoliyatlar">
-										<li>
-											<a class="dropdown-item" href="#">Ilmiy Faoliyat</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">Madaniyat va Marifiy</a>
-										</li>
-									</ul>
+								<li>	<a class="dropdown-item" href="#">MMBIDO’</a>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Link</a>
+								<li>	<a class="dropdown-item" href="#">ICHIBDO’</a>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+								<li>	<a class="dropdown-item" href="#">XIBDO’</a>
+								</li>
+								<li>	<a class="dropdown-item" href="#">Bosh hisobchi</a>
 								</li>
 							</ul>
-							<!-- Right links -->
-						</div>
-						<!-- Collapsible wrapper -->
-					</div>
-					<!-- Container wrapper -->
-				</nav>
-				<!-- Background image -->
-				<div
-					class="p-5 text-center bg-image"
-					style="
+							<!-- Navbar dropdown: Ma’lumotlar-->
+							<li class="nav-item dropdown">	<a class="nav-link dropdown-toggle" href="#" id="ddInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+										Ma’lumotlar
+									</a>
+								<!-- Dropdown menu -->
+								<ul class="dropdown-menu shadow-lg" aria-labelledby="ddInfo">
+									<li>	<a class="dropdown-item" href="#">Qonunlar</a>
+									</li>
+									<li>	<a class="dropdown-item" href="#">Farmonlar</a>
+									</li>
+									<li>	<a class="dropdown-item" href="#">Qarorlar</a>
+									</li>
+									<li>	<a class="dropdown-item" href="#">Nizomlar va qoidalar</a>
+									</li>
+								</ul>
+							</li>
+							<!-- Navbar dropdown: Talabalar-->
+							<li class="nav-item dropdown">	<a class="nav-link dropdown-toggle" href="#" id="ddTalabalar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+										Talabalar
+									</a>
+								<!-- Dropdown menu -->
+								<ul class="dropdown-menu shadow-lg" aria-labelledby="ddTalabalar">
+									<li>	<a class="dropdown-item" href="#">Yo'riqnoma</a>
+									</li>
+									<li>	<a class="dropdown-item" href="#">Iqtidorli talabalar</a>
+									</li>
+								</ul>
+							</li>
+							<!-- Navbar dropdown: Faoliyatlar-->
+							<li class="nav-item dropdown">	<a class="nav-link dropdown-toggle" href="#" id="ddFaoliyatlar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+										Faoliyatlar
+									</a>
+								<!-- Dropdown menu -->
+								<ul class="dropdown-menu shadow-lg" aria-labelledby="ddFaoliyatlar">
+									<li>	<a class="dropdown-item" href="#">Ilmiy Faoliyat</a>
+									</li>
+									<li>	<a class="dropdown-item" href="#">Madaniyat va Marifiy</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">	<a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item">	<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+							</li>
+					</ul>
+					<!-- Right links -->
+				</div>
+				<!-- Collapsible wrapper -->
+			</div>
+			<!-- Container wrapper -->
+		</nav>
+		<!-- Background image -->
+		<div class="p-5 text-center bg-image" style="
 					background-image: url('assets/img/1.jpg');
 					height: 100vh;">
-					<div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
-						<div class="d-flex justify-content-center align-items-center h-100">
-							<div class="container text-white"
-								data-aos="fade-up"
-								data-aos-duration="3000"
-								>
-								<h1 class="display-2 mb-3" data-aos="fade-up">Kattaqo‘rg‘on shahar kasb-hunarga o‘qitish markazi
+			<div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+				<div class="d-flex justify-content-center align-items-center h-100">
+					<div class="container text-white" data-aos="fade-up" data-aos-duration="3000">
+						<h1 class="display-2 mb-3" data-aos="fade-up">Kattaqo‘rg‘on shahar kasb-hunarga o‘qitish markazi
 								</h1>
-								<p class="mb-3">Markazda mehnat bozorining real talab va taklif kelib chiqqan holda, 20 ta yo‘nalish bo‘yicha stipendiyalik qisqa muddatli kurslar tashkil etilgan.
-								</p>
-								<a class="btn btn-light btn-lg mr-4" href="#!" data-mdb-ripple-color="#000000" role="button">A'zo bo'lish</a>
-								<a class="btn btn-outline-light btn-lg" href="#!" role="button">Aloqa</a>
-							</div>
-						</div>
+						<p class="mb-3">Markazda mehnat bozorining real talab va taklif kelib chiqqan holda, 20 ta yo‘nalish bo‘yicha stipendiyalik qisqa muddatli kurslar tashkil etilgan.</p>	<a class="btn btn-light btn-lg mr-4" href="#!" data-mdb-ripple-color="#000000" role="button">A'zo bo'lish</a>
+						<a class="btn btn-outline-light btn-lg" href="#!" role="button">Aloqa</a>
 					</div>
 				</div>
-				<!-- Background image -->
-			</header>
-			<main class="">
-				<section class="container-fluid my-5">
-						<h2 class="display-5 text-center my-4" data-aos="fade-up">Bizning kurslar</h2>
-						<div class="row mx-1">
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-4 col-xl-3  mb-3" data-aos="zoom-in-up">
-								<div class="card text-center shadow">
-									<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-										<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.jpg" class="img-fluid" />
-										<a href="#!">
-											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-										</a>
-									</div>
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">
-											Some quick example text to build on the card title and make up the bulk of the
-											card's content.
-										</p>
-										<button type="button" class="btn btn-primary">Button</button>
-									</div>
-								</div>
-							</div>
-						</div>
-				</section>
-
-				<!-- AOS -->
-				<script src="/node_modules/aos/dist/aos.js"></script>
-				<script>
-				AOS.init({
+			</div>
+		</div>
+		<!-- Background image -->
+	</header>
+	<main class="container-md">
+		<!-- Payvandlovchi -->
+		<section class="my-5">
+			<h2 class="display-6 container text-center my-4" data-aos="fade-down">Payvandlovchi (elektr-gaz-argon) - span 3-6 oy</h2>
+			<div class="row  mx-1">
+				<div class="col-sm-6 col-lg-4 mb-3" data-aos="fade-right">
+					<div class="bg-image hover-overlay ripple">
+						<img src="/assets/img/darslar/Payvandlovchi/1.jpg" class="img-fluid">
+						<a href="#!">
+							<div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4 mb-3" data-aos="zoom-in">
+					<div class="bg-image hover-overlay ripple">
+						<img src="/assets/img/darslar/Payvandlovchi/2.jpg" class="img-fluid">
+						<a href="#!">
+							<div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4 mb-3" data-aos="fade-left">
+					<div class="bg-image hover-overlay ripple">
+						<img src="/assets/img/darslar/Payvandlovchi/3.jpg" class="img-fluid">
+						<a href="#!">
+							<div class="mask" style="background-color: rgba(57, 192, 237, 0.2);"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- AOS -->
+	<script src="/node_modules/aos/dist/aos.js"></script>
+	<script>
+		AOS.init({
 				startEvent: 'DOMContentLoaded',
 				disableMutationObserver: false, // disables automatic mutations' detections (advanced)
 				debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
 				throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 				
-				offset: 120,
+				offset: 220,
 				duration: 2000,
 				once: false,
 				mirror: false,
 				});
-				</script>
-				<!-- MDB -->
-				<script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
-				<!-- other script -->
-				<!--[if lt IE 9]>
+	</script>
+	<!-- MDB -->
+	<script src="/node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+	<!-- other script -->
+	<!--[if lt IE 9]>
 				<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 				<![endif]-->
-			</body>
-		</html>
+</body>
+
+</html>
